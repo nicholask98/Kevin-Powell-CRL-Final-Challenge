@@ -1,0 +1,174 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================
+         General
+   ================== */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #6F737F;
+}
+
+.container {
+    margin: 0 2em;
+}
+
+section {
+    padding: 2em 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 75%;
+}
+
+/* ==================
+        Reusables
+   ================== */
+
+.button {
+    background-color: #A59678;
+    text-transform: uppercase;
+    color: white;
+    padding: .25em 1.5em;
+    border-radius: 100px;
+    font-family: Oswald, sans-serif;
+    display: inline-block;
+    margin: 1em 0;
+}
+
+.white {
+    color: white;
+}
+
+/* ==================
+         Headers
+   ================== */
+
+h1, h3, h4 {
+    color: #A59678;
+    font-family: 'Oswald', sans-serif; 
+}
+
+h2 {
+    color: white;
+    font-family: 'Oswald', sans-serif; 
+    padding: 1em 0;
+}
+
+h3, h4 {
+    margin-bottom: 1em;
+}
+
+/* ==================
+           Nav
+   ================== */
+
+
+.nav {
+    padding: .5em 0;
+    background-color: #2E323F;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    color: white;
+    text-decoration: none;
+}
+
+/* ==================
+          Hero
+   ================== */
+
+.hero {
+    background-color: #3B4050;
+    color: #aaa;
+    padding: 2em 0;
+}
+
+.title--header {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    text-align: center;
+    padding-bottom: .5em;
+}
+
+.title--header span {
+    color: white;
+}
+
+.title--content {
+    text-align: center;
+}
+
+/* ==================
+        Section 2
+   ================== */
+
+
+.section2 {
+    background-color: #ddd;
+}
+
+.section2__item + .section2__item {
+    margin-top: 1em;
+}
+
+/* ==================
+        Section 3
+   ================== */
+
+.sidebar__item {
+    background-color: #2E323F;
+    margin: 1em 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.sidebar__item p {
+    color: #aaa;
+}
+
+.img--sketches {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+/* ==================
+          Footer
+   ================== */
+
+footer {
+    background-color: #3B4050;
+    color: #6F737F;
+    padding-bottom: 2em;
+}
+
+.footer__list {
+    padding-top: 2em;
+}
+
+@media (min-width: 700px) {
+
+}
+
+@media (min-width: 1000px) {
+    
+}
