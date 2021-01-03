@@ -91,10 +91,16 @@ h3 {
     justify-content: space-between;
 }
 
-.nav-list {
+.nav--list {
     display: flex;
+    align-items: center;
     color: white;
     text-decoration: none;
+    visibility: hidden; /*because I don't know JavaScript and cannot make a dynamic hamburger menu*/
+}
+
+.nav--list li + li {
+    margin-left: .5em;
 }
 
 /* ==================
@@ -180,6 +186,15 @@ footer {
         justify-content: space-between;
     }
 
+    nav {
+        align-items: center;
+        width: 62%;
+    }
+
+    .nav--list {
+        visibility: visible;
+    }
+
     .hero {
         min-height: 500px;
         display: flex;
@@ -208,13 +223,17 @@ footer {
         margin: 0 5em;
     }
 
+    .row--medium {
+        display: block;
+    }
+
     .row {
         display: flex;
         justify-content: space-between;
     }
 
     .title--header {
-        width: 50%;
+        width: 45%;
     }
 
     .title--content {
@@ -232,10 +251,6 @@ footer {
     .section2__item + .section2__item {
         margin-top: 0;
         margin-left: 2em;
-    }
-
-    .row--medium {
-        display: block;
     }
 
     article {
@@ -272,5 +287,9 @@ footer {
 
     .footer__list + .footer__list {
         margin-left: 2em;
+    }
+
+    .footer__list li + li {
+        margin-top: 1em;
     }
 }
